@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Estudos/Cursos.css">
+    <title>Cursos - Luquinhax Interpraises</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="SitePrincipal.html"><li>Página Inicial</li></a>
+        </ul>
+        <h1>Os melhores cursos para você!</h1>
+    </header>
+    <!-- Container 1 -->
+    <div class="container">
+
+        <!-- Card 1 -->
+
+        <div class="card card">
+            <!-- Imagem do card -->
+            <div class="card-header">
+                <img src="/Estudos/Imagens/download.jpg" class="card-img">
+            </div>
+            <!-- Texto do card -->
+            <div class="card-body">
+                <h3 class="card-local">com Big John (BJ)</h3>
+                <h2 class="card-titulo">HTML e CSS</h2>
+                <p class="card-texto">Olá, esse é um teste somente para ver se meu card fica bonito para cursos.</p>
+            </div>
+            <!-- Ultima linha do card -->
+            <div class="card-footer">
+                <a href="Compra.html">Comprar</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card card-2">
+            <!-- Imagem do card -->
+            <div class="card-header">
+                <img src="/Estudos/Imagens/php.png" class="card-img">
+            </div>
+            <!-- Texto do card -->
+            <div class="card-body">
+                <h3 class="card-local">com Tucano</h3>
+                <h2 class="card-titulo">PHP</h2>
+                <p class="card-texto">Olá, esse é um teste somente para ver se meu card fica bonito para cursos.</p>
+            </div>
+            <!-- Ultima linha do card -->
+            <div class="card-footer">
+                <a href="Compra.html">Comprar</a>
+            </div>
+        </div>
+            
+            <!-- Card 3 -->
+            <div class="card card-3">
+                <div class="card-header">
+                    <img src="/Estudos/Imagens/js.jpg" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-local">com Motoqueiro Fantasma</h3>
+                    <h2 class="card-titulo">Java Script and React</h2>
+                    <p class="card-texto">sim, sim, sim, sim, sim, sim, sim</p>
+                </div>
+
+                <div class="card-footer">
+                    <a href="Compra.html">Comprar</a>
+                </div>
+            </div>
+    </div>
+
+
+                <!-- Container 2 -->
+    <div class="container-2">
+        <div class="card card">
+            <!-- Imagem do card -->
+            <div class="card-header">
+                <img src="/Estudos/Imagens/Python.png" class="card-img">
+            </div>
+            <!-- Texto do card -->
+            <div class="card-body">
+                <h3 class="card-local">com Magnin</h3>
+                <h2 class="card-titulo">Python</h2>
+                <p class="card-texto">Olá, esse é um teste somente para ver se meu card fica bonito para cursos.</p>
+            </div>
+            <!-- Ultima linha do card -->
+            <div class="card-footer">
+                <a href="Compra.html">Comprar</a>
+            </div>
+        </div>
+
+            <!-- Card 2 -->
+
+            <div class="card card-2">
+                <!-- Imagem do card -->
+                <div class="card-header">
+                    <img src="/Estudos/Imagens/Redes.jpg" class="card-img">
+                </div>
+                <!-- Texto do card -->
+                <div class="card-body">
+                    <h3 class="card-local">com Pedrin matador de porco</h3>
+                    <h2 class="card-titulo">Redes</h2>
+                    <p class="card-texto">Olá, esse é um teste somente para ver se meu card fica bonito para cursos.</p>
+                </div>
+                <!-- Ultima linha do card -->
+                <div class="card-footer">
+                    <a href="Compra.html">Comprar</a>
+                </div>
+            </div>
+
+                <!-- Card 3 -->
+
+                <div class="card card-3">
+                    <!-- Imagem do card -->
+                    <div class="card-header">
+                        <img src="/Estudos/Imagens/Fl.jpg" class="card-img">
+                    </div>
+                    <!-- Texto do card -->
+                    <div class="card-body">
+                        <h3 class="card-local">Deadvennus</h3>
+                        <h2 class="card-titulo">Beats do PHONK</h2>
+                        <p class="card-texto">Olá, esse é um teste somente para ver se meu card fica bonito para cursos.</p>
+                    </div>
+                    <!-- Ultima linha do card -->
+                    <div class="card-footer">
+                        <a href="Compra.html">Comprar</a>
+                    </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Aqui vai a logo</h1>
+                <p>Sim</p>
+
+                <div id="footer_social">
+                    <a href="#" class="footer-link" id="Insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="Face">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="Wpp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+            </div>
+        </div>   
+
+        <ul class="footer-list">
+            <li>
+                <h3>Blog</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Tecnologia</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Sim</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Música</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Nossos Produtos</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Aplicativo</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Área de Trabalho</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Nuvem</a>
+            </li>
+        </ul>
+        <div id="footer_subscribe">
+            <h3>Escreva para nós!</h3>
+            <p>Entre com seu e-mail para receber notificações sobre novas soluções</p>
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_copywrite">
+        &#169
+        2023 Todos os direitos reservados
+    </div>
+    </footer>
+</body>
+</html>
