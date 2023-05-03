@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="/Estudos/Sim.js" defer></script>
+    <title>Principal - Luquinhax Interpraises</title>
+    <link rel="stylesheet" href="stylePrincipal.css">
+</head>
+<body>
+    <header>
+       
+        <div id="title">
+            <h1>Luquinhax Interpraises</h1>
+        </div>
+        <nav>
+            <ul>
+                <div class="container">
+                    <a href="#inicio"><div class="box-1">
+                        <li>Início</li>
+                    </div></a></div>
+
+                <div class="container-2">
+                    <a href="#sobre-1"><div class="box-2">
+                        <li>Sobre</li>
+                    </div></a></div>
+
+                <div class="container-3">
+                    <a href="#cursos"><div class="box-3">
+                        <li>Contato</li>
+                    </div></a></div>
+                    
+                <div class="container-4">
+                    <a href="Login.php"><div class="box-4">
+                        <li>Login</li>
+                    </div></a></div>
+            </ul>
+        </nav>
+
+            <div class="icones">
+                <a href="Cursos.html"><i class='bx bx-cart'></i></a>
+                <div id="menu"><i class='bx bx-menu'></i></div>
+            </div>
+    </header>
+    <section id="inicio">
+        <div>
+            <h2 id="simpleUsage">
+                Programando
+            </h2>
+        
+            <p>
+                Rato, filme, poze, mengaum, brocasito, carlao graças a deus, catolica, pardo, italiana, roblox de cria,
+                quimica, historia, terror, palhaços, os grilos, glitter, chuveiro do thor, avo da 1 guerra mundial, scot guerreiro, praia, derrubando agua na roupa, e outras coisas
+            </p>
+            <button>Saiba mais</button>
+        </div>
+       
+ <img src="" alt="">
+    </section>
+    
+    <section id="sobre-1">
+        <div class="card">
+            <div class="face red">
+                <div class="imagem">
+                <img src="/Estudos/Imagens/Compre.png" alt="" id="imagem">
+                <h3>Compre</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content"> 
+                <p class="texte">Só compra</p>
+                <a href="Cursos.html" class="Link">Saiba Mais</a>
+                </div>
+            </div>     
+        </div>
+        
+        <div class="card">
+            <div class="face purple">
+                <div class="imagem">
+            <img src="/Estudos/Imagens/control.png" alt="" id="imagem">
+            <h3>Gamificado</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content">
+                <p>Roxo</p>
+                <a href="#" class="Link">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face green">
+                <div class="imagem">
+            <img src="/Estudos/Imagens/Fone.png" alt="" id="imagem">
+            <h3>Suporte 24h</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content">
+                <p>verde</p>
+                <a href="#" class="Link">Acessar</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sobre-2">
+        <div class="card">
+            <div class="face red">
+                <div class="imagem">
+                <img src="/Estudos/Imagens/Compre.png" alt="" id="imagem">
+                <h3>Compre</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content"> 
+                <p class="texte">Só compra</p>
+                <a href="#" class="Link">Saiba Mais</a>
+                </div>
+            </div>     
+        </div>
+        
+        <div class="card">
+            <div class="face purple">
+                <div class="imagem">
+            <img src="/Estudos/Imagens/control.png" alt="" id="imagem">
+            <h3>Gamificado</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content">
+                <p>Roxo</p>
+                <a href="#" class="Link">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face green">
+                <div class="imagem">
+            <img src="/Estudos/Imagens/Fone.png" alt="" id="imagem">
+            <h3>Suporte 24h</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content">
+                <p>verde</p>
+                <a href="#" class="Link">Acessar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-3">
+        <div class="card">
+            <div class="face red">
+                <div class="imagem">
+                <img src="/Estudos/Imagens/Compre.png" alt="" id="imagem">
+                <h3>Compre</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content"> 
+                <p class="texte">Só compra</p>
+                <a href="#" class="Link">Saiba Mais</a>
+                </div>
+            </div>     
+        </div>
+        
+        <div class="card">
+            <div class="face purple">
+                <div class="imagem">
+            <img src="/Estudos/Imagens/control.png" alt="" id="imagem">
+            <h3>Gamificado</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content">
+                <p>Roxo</p>
+                <a href="#" class="Link">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face green">
+                <div class="imagem">
+            <img src="/Estudos/Imagens/Fone.png" alt="" id="imagem">
+            <h3>Suporte 24h</h3>
+                </div>
+            </div>
+            <div class="face-2">
+                <div class="content">
+                <p>verde</p>
+                <a href="#" class="Link">Acessar</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="cursos">
+        <div>
+            <h1>Junte-se à nossa comunidade</h1>
+            <img src="/Estudos/Imagens/progra.png" alt="">
+        </div>
+        <form action="POST">
+            <label for="">Nome</label>
+            <input type="text" name="" id="" placeholder="Nome">
+            <label for="">Usuário</label>
+            <input type="text" name="" id="" placeholder="Username">
+            <label for="">Senha</label>
+            <input type="text" name="" id="" placeholder="Digite uma senha">
+            <label for="">E-mail</label>
+            <input type="text" name="" id="" placeholder="Seu endereço de e-mail">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
