@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px 80px 0 80px;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+}
+header ul li{
+    color: white;
+    text-decoration: none;
+    padding-right: 575px;
+    transition: all .5s;
+}
+header ul li:hover{
+    color: black;
+}
+header h1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(-90deg, #585266, #6c6872);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Card 1*/
+.card{
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.card-header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.card-img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+.card-body{
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.card-local{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.card-titulo{
+    font-size: 32px;
+    margin: 15px 0;
+}
+.card-texto{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+}
+.card-footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+}
+.card-footer a{
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.container-2{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+}
+
+.footer{
+    width: 100%;
+    color: #f5f5f5;
+}
+.footer-link{
+    text-decoration: none;
+}
+#footer_content{
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+#footer_contacts h1{
+    margin-bottom: .75rem;
+}
+#footer_social{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer_social .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: #f5f5f5;
+    transition: all 0.4s;
+}
+#footer_social .footer-link i{
+    font-size: 1.25rem;
+}
+#footer_social .footer-link:hover{
+    opacity: 0.8;
+}
+#Insta{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#Face{
+    background-color: #4267b3;
+}
+#Wpp{
+    background-color: #25d366;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.footer-list .footer-link{
+    color: black;
+}
+.footer-list .footer-link:hover{
+    color: #7f37c9;
+    transition: all 0.4s;
+}
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#footer_subscribe p{
+    color: black;
+}
+#input_group{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+#input_group input{
+    background: rgb(238, 236, 236);
+    padding: 0.75rem;
+    width: 100%;
+}
+#input_group button{
+    background: rgb(226, 224, 224);
+    border: none;
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+#input_group button:hover{
+    opacity: 0.8;
+}
+#footer_copywrite{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+    #footer_content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    header ul li{
+        flex-direction: column;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 426px) {
+    #footer_content{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+    header ul li{
+        flex-direction: column;
+        padding-right: 0px;
+    }
+}
