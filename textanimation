@@ -1,0 +1,7 @@
+new TypeIt("#simpleUsage", {
+        speed: 50,
+        waitUntilVisible: true,
+        loop: true,
+    })
+    .pause(6000)
+    .go();
