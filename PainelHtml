@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Estudos/Painel.css">
+    <title>Painel - Luquinhax Interpraises</title>
+</head>
+<body>
+        <div class="total" style="background-image: linear-gradient(-90deg, #58b2db, #4f1480);">
+        
+            <center><img src="/Estudos/Imagens/gear.png" width="200px" height="200px" alt="" style="margin-top: 20px;"></center>
+                <div class="funcoes">
+                    <div class="ico red" style="margin-bottom: 20px;">
+
+                        <img src="/Estudos/Imagens/Func.png" width="100" height="100" style="margin-top: 20px;">
+                        <img src="/Estudos/Imagens/Lista.png" width="100" height="100" style="margin-top: 20px;">
+                        <br> <a href="/Estudos/Cadfunc.html" style="text-decoration: none; color: black;"> <center><p id="names"> Funcionários | Listar </p></center></a>
+                    </div>
+
+                    <div class="ico purple" style="margin-bottom: 20px;">
+
+                        <img src="/Estudos/Imagens/Clientes.png" width="100" height="100" style="margin-top: 20px;"></center>
+                        <img src="/Estudos/Imagens/Lista.png" width="100" height="100" style="margin-top: 20px;"></center>
+                        <br><a href="/Estudos/Clientes.html" style="text-decoration: none; color: black;"> <center><p> Clientes | Listar </p></center></a>
+                    </div>
+
+                    <div class="ico green" style="margin-bottom: 20px;">
+
+                        <img src="/Estudos/Imagens/Pag.png" width="100" height="100" style="margin-top: 20px;">
+                        <img src="/Estudos/Imagens/Lista.png" width="100" height="100" style="margin-top: 20px;">
+                        <br><a href="/Estudos/Compra.html" style="text-decoration: none; color: black;"> <center> Pagar | Listar </center></a>
+                         </div>
+                    
+                </div>
+        
+        </div>
+</body>
+</html>
