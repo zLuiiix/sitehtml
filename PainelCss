@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.funcoes{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+} 
+.funcoes {
+     position: relative;
+     cursor: pointer;
+}
+.ico{
+    padding: 100px;
+    width: 300px;
+    height: 250px;
+}
+
+@media (max-width: 738px) {
+    .funcoes{
+     width: 100%;
+     flex-direction: column;
+    }
+}
