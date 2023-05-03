@@ -1,0 +1,559 @@
+ /*Essa é a linha de código da página inteira */
+ * { 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*Essa é a linha do HTML inteiro */
+ html { 
+    scroll-behavior: smooth;
+}
+/*Essa é tudo o que vai envolver dentro da tag Body no HTML.*/
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+/* Foi criada essa ID title para colocar contorno e efeitos na box do título da empresa. */
+#title {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+     border: 8px solid #939;
+    padding: 15px 60px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 15px #939, 0 0 30px #939;
+    position: relative;
+}
+    
+/* Tudo o que tiver dentro da tag H1 terá um efeito ao colocar o cursor por cima */
+h1 {
+    font-size: 38px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+h1:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #993399,
+    0 0 25px #993399, 
+    0 0 50px #993399,
+    0 0 100px #993399;
+}
+/* Esse container é o que vai carregar as box de Inicio... alinhando-os */
+.container{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+/* A partir dessa primeira box, foi feito o contorno rgb no container inicio. */
+.box-1{
+    position: relative; 
+    width: 90px;
+    height: 30px;
+    display: flex;
+}
+ .box-1::before{
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 82px;
+    height: 35px;
+    padding: 4px;
+    background: linear-gradient(45deg, #982589, #5f56e6);
+    -webkit-mask: linear-gradient(#fff 0 0)content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+} 
+.box-1:hover{
+    color: #000;
+}
+/* A partir dessa segunda box, foi feito o contorno rgb no container Sobre. */
+.container-2{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.box-2{
+    position: relative; 
+    width: 95px;
+    height: 30px;
+    display: flex;
+} 
+.box-2::before{
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 88px;
+    height: 35px;
+    padding: 4px;
+    background: linear-gradient(45deg, #982589, #5f56e6);
+    -webkit-mask: linear-gradient(#fff 0 0)content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.box-2:hover{
+    color: #000;
+}
+/* A partir dessa terceira box, foi feito o contorno rgb no container Contato. */
+.container-3{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.box-3{
+    position: relative; 
+    width: 110px;
+    height: 30px;
+    display: flex;
+} 
+.box-3::before{
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 102px;
+    height: 35px;
+    padding: 4px;
+    background: linear-gradient(45deg, #982589, #5f56e6);
+    -webkit-mask: linear-gradient(#fff 0 0)content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.box-3:hover{
+    color: #000;
+}
+/* A partir dessa quarta box, foi feito o contorno rgb no container Login. */
+.container-4{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.box-4{
+    position: relative; 
+    width: 75px;
+    height: 30px;
+    display: flex;
+} 
+.box-4::before{
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 85px;
+    height: 35px;
+    padding: 4px;
+    background: linear-gradient(45deg, #982589, #5f56e6);
+    -webkit-mask: linear-gradient(#fff 0 0)content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.box-4:hover{
+    color: #000;
+}
+
+/* Fundo do cabeçalho da página. */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px 80px 0 80px;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+}
+/* Colocar o título da empresa no canto. */
+header div {
+    margin: auto;
+    margin-left: 0;
+}
+/* Configurar os "links de acesso da página". */
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.55s ease;
+}
+nav ul li img{
+    height: 42px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.icones{
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+#menu{
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+}
+.icones i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.icones i:hover{
+    transform: translateY(-5px);
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    padding: 30px 80px;
+    background-image: linear-gradient(-90deg, #2e2050, #8766ae);
+}
+
+#inicio div {
+    width: 700px;
+    padding-right: 80px;
+}
+
+#inicio div p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#inicio div button {
+    width: 150px;
+    height: 50px;
+    border-radius: 90px;
+    border: none;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    background: #c49cd6;
+    color: #000;
+}
+
+#inicio div button:hover {
+    background: rgb(219, 90, 92);
+    color: #fff;
+}
+
+#sobre-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background: #fff;
+}
+
+#sobre-1 div {
+    width: 300px;
+}
+
+#sobre-1 div h1 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #2A2850;
+}
+
+#sobre-1 div p {
+    color: #2A2850;
+}
+
+#sobre-1 div img {
+    width: 100px;
+    height: 100px;
+}
+
+#sobre-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background-image: linear-gradient(-90deg, #2e2050, #8766ae);
+}
+
+#sobre-2 div {
+    width: 300px;
+}
+
+#sobre-2 div h1 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #000;
+}
+
+#sobre-2 div p {
+    color: #000;
+}
+
+#sobre-2 div img {
+    width: 100px;
+    height: 100px;
+}
+
+#sobre-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background: #fff;
+}
+
+#sobre-3 div {
+    width: 300px;
+}
+
+#sobre-3 div h1 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #2A2850;
+}
+
+#sobre-3 div p {
+    color: #2A2850;
+}
+
+#sobre-3 div img {
+    width: 100px;
+    height: 100px;
+}
+
+#cursos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+    padding: 0 30px;
+}
+
+#cursos div {
+    text-align: center;
+}
+
+#cursos div h1 {
+    margin-bottom: 40px;
+}
+
+#cursos form {
+    width: 350px;
+    color: #000;
+    background-image: linear-gradient(-90deg, #990d3b, #990d3b);
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+#cursos form input {
+    width: 270px;
+    margin: 10px 0;
+    padding: 9px;
+    background: #fff;
+    border: solid ipx #2A2850;
+    font-size: 14px;
+}
+
+#cursos form button {
+    background: #c49cd6;
+    width: 270px;
+    height: 55x;
+    border: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+#cursos form button:hover {
+    background: rgb(219, 90, 92);
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #fff;
+    font-size: 20px;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+}
+
+@media (max-width: 1000px) {
+    #inicio img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    #title {
+        width: 100%;
+        padding: 0;
+    }
+    header {
+        padding: 40px 40px 0 40px;
+    }
+    nav ul li {
+        padding: 0 10px;
+        list-style: none;
+        font-size: 18px;
+    }
+
+    #inicio {
+        padding: 10px 40px;
+    }
+
+    #inicio div {
+        padding-right: 0px;
+    }
+
+    #inicio img {
+        display: none;
+    }
+
+    #sobre-1, #sobre-2, #sobre-3 {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        padding: 40px 0;
+    }
+
+    #cursos div {
+        display: none;
+    }
+}
+/* Aqui para baixo, são animações dos cards */
+.card {
+    position: relative;
+    cursor: pointer;
+    width: 300px;
+}
+
+.face{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transform: translateY(100px);
+    z-index: 1;
+}
+
+.face2-2{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    transition: 0.5s;
+    transform: translateY(-100px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.card:hover .face-2{
+    transform: translateY(0);
+}
+
+.card:hover .face.red{
+    background-color: #990d3b;
+    transform: translateY(0);
+}
+.card:hover .face.purple{
+    background-color: #8b148b;
+    transform: translateY(0);
+}
+.card:hover .face.green{
+    background-color: #186117;
+    transform: translateY(0);
+}
+.card img{
+    fill: #222;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover img{
+    fill: #fff !important;
+}
+
+.card:hover h3{
+    color: #fff;
+}
+
+.imagem{
+    opacity: 0.2;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card:hover .imagem{
+    opacity: 1;
+}
+h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #222;
+    text-align: center;
+    font-size: 25px;
+}
+
+.texte{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.Link{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #777;
+    padding: 5px;
+    border: 1px solid #777;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.Link:hover{
+    background-color: #777;
+    color: #fff;
+}
