@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+<link href="styleLogin.css" rel="stylesheet">
+</head>
+<body>
+	<div class="principal">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="cadastro">
+				<form method="POST">
+					<label for="chk" aria-hidden="true">Registro</label>
+					<input type="text" name="txt" placeholder="Nome" required="">
+					<input type="email" name="email" placeholder="E-mail" required="">
+					<input type="password" name="pswd" placeholder="Senha" required="">
+					<button>Registrar</button>
+				</form>
+			</div>
+        
+			<div class="login">
+				<form method="POST">
+					<label for="chk" aria-hidden="true">Entrar</label>
+					<input type="text" name="user" placeholder="E-mail">
+					<input type="password" name="pass" placeholder="Senha">
+					<button type="submit">Entrar</button>
+				</form>
+				<?php
+        /* Declaração de Variáveis */
+        $user = @$_REQUEST['user'];
+        $pass = @$_REQUEST['pass'];
+        $submit = @$_REQUEST['submit'];
+
+        /*declaração das variáveis que possuem os usuarios e as senhas*/
+        $user1 = 'teste';
+        $pass1 = '123';
+
+        $user2 = 'teste1';
+        $pass2 = '1';
+
+        /*testa se o botão submit foi ativado */
+        if($user == "" || $pass == ""){
+        echo "<script>alert('Por favor, preencha todos os campos!');
+        </script>";
+        }
+        /*Caso o campo usuario e senha não
+        *estejam vazios vamos testar se o usuário e a senha batem
+        *iniciamos uma sessão e redirecionamos o usuário para o painel */
+
+        else{
+        if(($user == $user1 && $pass == $pass1 ) || ($user == $user2 && $pass2)){
+            session_start();
+            $_SESSION['usuario']=$user;
+            $_SESSION['senha']=$pass;
+            header("Location: painel.html");
+        }else{
+            echo "<script>alert('Usuario e/ou senha invalido(s), tente novamente!);
+			</script>";
+        }
+         /* Se o usuario ou a senha não batem alertamos o usuario*/
+        }
+
+        
+        ?>
+			</div>
+	</div>
+</body>
+</html>
