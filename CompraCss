@@ -1,0 +1,281 @@
+* { 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html { 
+    scroll-behavior: smooth;
+}
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+     border: 8px solid #939;
+    padding: 15px 60px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 15px #939, 0 0 30px #939;
+    position: relative;
+    color: #fff;
+}
+    
+/* Tudo o que tiver dentro da tag H1 terá um efeito ao colocar o cursor por cima */
+h1 {
+    font-size: 38px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+h1:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #993399,
+    0 0 25px #993399, 
+    0 0 50px #993399,
+    0 0 100px #993399;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px 80px 0 80px;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+}
+/* Colocar o título da empresa no canto. */
+header div {
+    margin: auto;
+    margin-left: 0;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.55s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h2{
+    background: #412379; 
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 0 30px;
+    height: 70px;
+}
+h4{
+    background: #412379; 
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: #412379; 
+    padding-bottom: 70px;
+    padding-top: 60px;
+}
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: #5c36a1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+}
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container form .row .col{
+    flex: 1 1 250px;
+}
+.container form .row .col .title{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.container form .row .col .inputBox{
+    margin: 15px 0;
+}
+.container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+}
+.container form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.container form .row .col .inputBox input:focus{
+    border: 1px solid #000;
+}
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+.container form .row .col .flex .inputBox{
+    margin-top: 5px;
+}
+.container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px rgba #000);
+}
+.container form .botao{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #784dc9;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.container form .botao:hover{
+    background: #431599;
+}
+.footer{
+    width: 100%;
+    color: #f5f5f5;
+}
+.footer-link{
+    text-decoration: none;
+}
+#footer_content{
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+#footer_contacts h1{
+    margin-bottom: .75rem;
+}
+#footer_social{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer_social .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: #f5f5f5;
+    transition: all 0.4s;
+}
+#footer_social .footer-link i{
+    font-size: 1.25rem;
+}
+#footer_social .footer-link:hover{
+    opacity: 0.8;
+}
+#Insta{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#Face{
+    background-color: #4267b3;
+}
+#Wpp{
+    background-color: #25d366;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.footer-list .footer-link{
+    color: black;
+}
+.footer-list .footer-link:hover{
+    color: #7f37c9;
+    transition: all 0.4s;
+}
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#footer_subscribe p{
+    color: black;
+}
+#input_group{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+#input_group input{
+    background: rgb(238, 236, 236);
+    padding: 0.75rem;
+    width: 100%;
+}
+#input_group button{
+    background: rgb(226, 224, 224);
+    border: none;
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+#input_group button:hover{
+    opacity: 0.8;
+}
+#footer_copywrite{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+    #footer_content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    header ul li{
+        flex-direction: column;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 426px) {
+    #footer_content{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+    header ul li{
+        flex-direction: column;
+        padding-right: 0px;
+    }
+}
