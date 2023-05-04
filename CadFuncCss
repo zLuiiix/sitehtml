@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px 80px 0 80px;
+    background-image: linear-gradient(-90deg, #2e2050, #674a86);
+}
+header ul li{
+    color: white;
+    text-decoration: none;
+    padding-right: 175px;
+    transition: all .5s;
+}
+header ul li:hover{
+    color: black;
+}
+header h1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-right: 75px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(-90deg, #585266, #6c6872);
+}
+#formulario{
+    text-align: left;
+    margin: 0%;
+}
+.direita{
+    float: right;
+    width: 50%;
+}
+.esquerda{
+    float: left;
+    width: 50%;
+}
+#formulario label{
+    line-height: 30px;
+    text-align: left;
+}
+#formulario input{
+    padding: 9px;
+    border: 1px solid #000000cc;
+}
+#formulario, #button{
+    background-image: linear-gradient(-90deg, #3d3c3f, #605c68);
+    color: #fff;
+}
+#formulario, #button:hover{
+    background-color: #344030;
+}
+@media (max-width: 800px){
+    h1{
+        padding-left: none;
+    }
+    #formulario{
+        height: 800px;
+        padding: 40px 0;
+        flex-direction: column;
+        float: none;
+    }
+    .esquerda{
+        float: none;
+        padding-left: 100px;
+    }
+    .direita{
+        float: none;
+        padding-left: 100px;
+    }
+    #button{
+        background: #1C1C1C;
+        width: 270px;
+        height: 55px;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        border-radius: 50px;
+        margin-left: 100px;
+    }
+}
